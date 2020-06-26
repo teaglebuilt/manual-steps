@@ -18,6 +18,7 @@ def get_display_name():
     return "Execute Manual Steps builder"
 
 def do_check_name(value):
+    print(dir(extension))
     if len(value) == 0:
         return FormValidation.error("Please set a name")
     if len(value) < 4:

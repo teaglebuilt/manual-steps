@@ -7,6 +7,7 @@ import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.QueryParameter;
 
 import jenkins.python.expoint.BuilderPW;
+import jenkins.python.expoint.BuildWrapperPW;
 import jenkins.python.descriptor.BuildStepDescriptorPW;
 
 public class ManualStepsBuilder extends BuilderPW {
